@@ -1,40 +1,40 @@
-let question1 = confirm("You ready!?");
+let question1 = confirm("Hi there, are you ready for this?");
 
 if (question1 == true) {
-  alert("LET'S GET READY!");
+  alert("Great! Let's dive into it!");
 } else {
-  alert("Ah well.");
+  alert("I'm still gonna carry on, sorry.");
 }
 
 let colour = prompt("What is your favourite colour?");
 
 switch (colour.toLowerCase()) {
-  case "red":
-    alert("Your favourite colour was red. Gross.");
+  case "purple":
+    alert("Your favourite colour was purple. Gross.");
     break;
-  case "green":
+  case "grey":
     alert("Nice. Good choice.");
     break;
   default:
     alert(
-      "Pretty sure that colour doesn't exist. Have you thought about red or green? ¯\\_(ツ)_/¯"
+      "Pretty sure that colour doesn't exist. Have you thought about grey or purple?"
     );
 }
 let question2 = confirm("Do you like football?");
 if (question2 == true) {
-  alert("Let`s go and play !");
+  alert("Yes, let's go !");
 } else {
-  alert("Wasn`t expecting that!!! ");
+  alert("Really?!");
 }
-let question3 = confirm("Do you like  Liverpool Fc ?");
+let question3 = confirm("Do you like  Liverpool?");
 if (question3 == true) {
-  alert("Up the Reds!!!");
+  alert("Y.N.W.A.");
 } else {
-  alert("Sad to hear that ");
+  alert("Well, give it a chance at least.");
 }
-let question4 = confirm("Have you ever been on Anfield ?");
+let question4 = confirm("Have you ever been in Liverpool?");
 if (question4 == true) {
-  alert("Awesome!!!");
+  alert("Friendly place isn't it?");
 } else {
-  alert("You should go at least once !");
+  alert("Make plans to visit it, at least once!");
 }
