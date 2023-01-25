@@ -1,6 +1,14 @@
-background-color {
-  color: grey;
+html {
+  background-color: greenyellow;
 }
+
+.Cornel {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: x-large;
