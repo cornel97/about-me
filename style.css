@@ -1,0 +1,58 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: x-large;
+  color: aqua;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: aqua;
+}
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: aqua;
+}
+
+p {
+  font-size: larger;
+  color: greenyellow;
+}
+
+p.more-content {
+  background-color: #837c6d;
+}
+
+.more-content {
+  background-color: #a09988;
+}
+
+#something-else {
+  border: 5px dashed #ffe600;
+}
+
+.mario {
+  width: 10%;
+  display: block;
+  margin: 0 auto;
+  opacity: 60%;
+}
+body {
+  background-image: url(22.jpg);
+}
+ol {
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  color: greenyellow;
+}
+ul {
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  color: greenyellow;
+}
+p {
+  font-size: x-large;
+  color: greenyellow;
+}
+li {
+  font-size: x-large;
+  color: greenyellow;
+}
